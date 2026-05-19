@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1{
+         display: flex;
+         justify-content: center;
+        }
+        img{
+             display: flex;
+         justify-content: center;
+        }
+    </style>
+</head>
+<body>
+     <h1> <i> Thank you for used the
+        <br> atm machine✨✨✨⭐⭐</i></h1>
+ <img src="emoji.png" alt="" height="350vh">  
+ 
+ 
+ <script>
+        var pin =  "aliya" ;
+        var balance = 6000;
+    var userpin = prompt("enter your pin code");
+    if ( userpin === pin ){
+     var number = prompt("ager ap ko paise nikalne hai tu 1 press kare agar ap ko deposite karne hai tu 2 press kare ");
+         }
+          if ( number === "1" ) {
+            var x = prompt("enter your amount jo ap ko niklane hai");
+                       
+         }
+         if ( x <=balance){
+            balance = balance - x ;
+            alert ("transaction kamiyab  ab  ap ka balance hai   " + balance);
+         }
+              else if( number === "2"){
+var y = +prompt("enter  your amount jo ap ko deposite karna hai ")  ;
+balance = balance +y ;
+alert(" paise deposit ho gai hai ab ap ka paise " + balance);
+
+      }
+         else {
+        alert(" erorr please dobara try kare");
+         }
+
+   
+            
+    </script>
+</body>
+</html>
